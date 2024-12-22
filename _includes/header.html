@@ -1,6 +1,6 @@
 {%- assign page_paths = site.header_pages | default: default_paths -%}
 <header>
-  <img src="{{ header_logo }}" alt="logo">
+  <img src="{{ site.header_logo }}" alt="logo">
   <div class="menu">
     <ul>
       {%- for path in page_paths -%}
